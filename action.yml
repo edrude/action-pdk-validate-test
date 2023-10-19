@@ -1,0 +1,9 @@
+---
+name: action-pdk-validate-test
+description: Uses bundle exec to run pdk validate and test
+branding:
+  icon: check-square
+  color: orange
+runs:
+  using: docker
+  image: Dockerfile
